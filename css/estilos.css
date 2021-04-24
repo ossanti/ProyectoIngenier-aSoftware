@@ -23,7 +23,6 @@ body{
 .header{
     height: 100vh;
     width: auto;
-    /* 02 */
     background-image: linear-gradient(to bottom, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(fondo_inicio.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,6 +40,33 @@ body{
     color: #fff;
 }
 
+.head2{
+    padding: 0;
+    font-weight: bold;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 0;
+}
+
+.ASO-1{
+   display: flex;
+   margin: 0;
+   color: aqua;
+}
+
+.ASO-2{
+    display: flex;
+    margin: 0;
+    color: brown;
+}
+
+.ASO-3{
+    display: flex;
+    margin: 0;
+    color: chartreuse;
+}
 
 .hamburguer{
     position: fixed;
@@ -59,10 +85,7 @@ body{
     top: 0;
     width: 30vw;
     height: 100%;
-    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
-    /* 02 */
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    /* 028 */
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
     flex-direction: column;
@@ -84,15 +107,8 @@ body{
 }
 
 
-
 .titulo{
     color: #ffffff;
-    font-size: 60px;
-    margin-bottom: 15px;
-}
-
-.tituloASO{
-    color: #ffd900;
     font-size: 60px;
     margin-bottom: 15px;
 }
@@ -105,11 +121,12 @@ body{
 /* Services */
 
 .subtitulo{
-    color: #9f8ad0;
+    color: #2e6ee6;
     font-size: 40px;
     text-align: center;
     font-weight: 300;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 .contenedor-servicio{
@@ -133,13 +150,13 @@ body{
 
 .n-service{
     margin-bottom: 7px;
-    color: #9f8ad0;
+    color: #2e6ee6 ;
 }
 
 .number{
     display: inline-block;
     /* 02 */
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #32B2FF 0%, #2e6ee6 100%);
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
@@ -265,6 +282,7 @@ footer{
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    margin-left: 50%;
 }
 
 .social-media-icon{
@@ -405,9 +423,11 @@ footer{
 }
 
 .contenedor-slides{
-    margin-right: 20%;
-    background-color: white;
-    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 10%;
   }
   
   ul, li {
@@ -468,3 +488,21 @@ footer{
     font-size: 20px;
     border-radius: 100%;
   }
+
+  .enunciados{
+    color: #1458d6;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline rgb(0, 0, 0);
+    font-weight: 200;
+    margin-bottom: 30px;
+    font-style: italic;
+  }
+
+.enunciados-head{
+    display: flex;
+    margin: 0;
+}
+
+
+  
