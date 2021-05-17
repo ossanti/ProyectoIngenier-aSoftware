@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página web</title>
+    <title></title>
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -25,7 +25,7 @@
             <div class="head2">
                 <p class="ASO-1">A-</p> <p class="ASO-2">S-</p> <p class="ASO-3">O</p>
             </div>
-            <p class="copy">Modulo Geometria.</p>
+            <p class="copy">Modulo Operaciones Basicas.</p>
         </div>
         
     </header>
@@ -36,19 +36,19 @@
             <div class="contenedor-slides">    
                 <ul class="slider">
                   <li id="slide1">
-                    <img src="img/ejercicio1.1.png"/>
+                    <img src="img/Ope1.1.PNG"/>
                   </li>
                   <li id="slide2">
-                    <img src="img/ejercicio1.2.png"/>
+                    <img src="img/Ope1.2.PNG"/>
                   </li>
                   <li id="slide3">
-                    <p class="enunciados">Realice el ejercicio para calcular el numero de páginas del libro de Mariana</p>  
+                    <p class="enunciados">Realice el ejercicio para calcular los mangos que hay en cada caja</p>  
                     <div class="enunciados-head">
-                        <img style = "width: 100px; height: 100px" src="img/libroM.png"/>
-                        <p style = "margin-top: 30px; font-size: 30px; font-weight: bold; color: blueviolet; margin-right: 10px">29</p>
-                        <img style = "width: 50px; height: 50px; margin-top: 25px" src="img/SIMBOLO-MAS.png"/>
-                        <img style = "width: 100px; height: 100px" src="img/libroM.png"/>
-                        <p style = "margin-top: 30px; font-size: 30px; font-weight: bold; color: blueviolet; margin-right: 10px; ">75</p>
+                        <img style = "width: 100px; height: 100px" src="img/Mango.PNG"/>
+                        <p style = "margin-top: 30px; font-size: 30px; font-weight: bold; color: blueviolet; margin-right: 10px">120</p>
+                        <img style = "width: 50px; height: 50px; margin-top: 25px" src="img/Division.jpg"/>
+                        <img style = "width: 100px; height: 100px" src="img/Mango.PNG"/>
+                        <p style = "margin-top: 30px; font-size: 30px; font-weight: bold; color: blueviolet; margin-right: 10px; ">15</p>
                         <img style = "width: 50px; height: 50px; margin-top: 25px; margin-right: 10px" src="img/elmeromeroigual.png"/>
                         <input style = "border-radius: 5px; background-color: rgba(197, 136, 255, 0.705); border: 0; max-lines: 2; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px" maxlength="3" type="text" placeholder="Escriba el resultado" id="user1">
                         <input style = "border-radius: 5px; background-color: aqua; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px; border: 0" type="button" value="Comprobar" onclick="Operacion();">
@@ -170,10 +170,10 @@
     <script src="js/lightbox.js"></script>
     <script type="text/javascript">
              function Operacion() {
-                 var N1 = 29;
-                 var N2 = 75;
+                 var N1 = 120;
+                 var N2 = 15;
                  var sum;
-                 sum = N1 + N2;
+                 sum = N1 / N2;
                  var resUs = parseInt(document.getElementById("user1").value);
                  var puntaje = document.getElementById("mostrar_puntaje");
                  let resuelto = false;
@@ -183,7 +183,7 @@
                     if(resUs == sum){
                       alert("Bien");
                       resuelto = true;
-                      var pun = 25;
+                      var pun = 8;
                       puntaje.innerHTML += pun;
                     }else{
                       alert("Mal")
