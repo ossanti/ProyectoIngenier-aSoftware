@@ -10,29 +10,29 @@
 
 </head>  
 <body>
- <form class="formulario">
+ <form class="formulario" method="POST">
     
     <h1>Registrate</h1>
      <div class="contenedor">
      
      <div class="input-contenedor">
          <i class="fas fa-user icon"></i>
-         <input type="text" placeholder="Usuario">
+         <input type="text" name = "user" placeholder="Usuario">
          
          </div>
          
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
-         <input type="text" placeholder="Correo Electronico">
+         <input style = "font-size: 20px; width: 82%; padding: 10px; border: none" type="email" name = "email" placeholder="Correo Electronico">
          
          </div>
          
          <div class="input-contenedor">
         <i class="fas fa-key icon"></i>
-         <input type="password" placeholder="Contraseña">
+         <input type="password" name = "password" placeholder="Contraseña">
          
          </div>
-         <input type="submit" value="Registrate" class="button">
+         <input type="submit" name = "register" value="Registrate" class="button">
          <p>¿Ya tienes una cuenta?<a class="link" href="loginvista.html">Iniciar Sesion</a></p>
      </div>
     </form>
