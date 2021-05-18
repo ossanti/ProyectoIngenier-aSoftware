@@ -36,5 +36,8 @@
          <p>¿Ya tienes una cuenta?<a class="link" href="loginvista.html">Iniciar Sesion</a></p>
      </div>
     </form>
+    <?php
+      include("registro.php");
+    ?>
 </body>
 </html>

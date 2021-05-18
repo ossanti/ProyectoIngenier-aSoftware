@@ -29,8 +29,5 @@
          <p>¿No tienes una cuenta? <a class="link" href="registrarvista.html">Registrate </a></p>
          </div>
     </form>
-    <?php
-      include("registro.php");
-    ?>
 </body>
 </html>
