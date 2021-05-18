@@ -10,13 +10,10 @@
 
 </head>  
 <body>
-    <form class="formulario">
+    <form class="formulario" method = "post">
     
     <h1>Login</h1>
      <div class="contenedor">
-     
-     
-         
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
          <input type="text" placeholder="Usuario">
@@ -32,5 +29,8 @@
          <p>¿No tienes una cuenta? <a class="link" href="registrarvista.html">Registrate </a></p>
          </div>
     </form>
+    <?php
+      include("registro.php");
+    ?>
 </body>
 </html>
