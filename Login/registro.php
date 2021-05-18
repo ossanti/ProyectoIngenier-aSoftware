@@ -3,7 +3,9 @@
 include("conexion.php");
 
 if($conex){
-   echo "Todo correcto";
+   echo ("Todo correcto");
+}else{
+   echo ("No");
 }
 
 ?>
