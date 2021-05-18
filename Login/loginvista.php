@@ -10,7 +10,7 @@
 
 </head>  
 <body>
-    <form class="formulario">
+    <form class="formulario" method = "post">
     
     <h1>Login</h1>
      <div class="contenedor">
