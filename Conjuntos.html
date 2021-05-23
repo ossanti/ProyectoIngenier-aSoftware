@@ -56,20 +56,15 @@
         <div class="contenedor-slides">    
             <ul class="slider">
               <li id="slide1">
-                <img src="img/Ope1.1.PNG"/>
+                <img src="img/Ope7.1.png"/>
               </li>
               <li id="slide2">
-                <img src="img/Ope1.2.PNG"/>
+                <img src="img/Ope7.2.png"/>
               </li>
               <li id="slide3">
-                <p class="enunciados">Realice el ejercicio para calcular los mangos que hay en cada caja</p>  
+                <p class="enunciados">Ingrese el numero que considere que es el conjunto con mas objetos.</p>  
                 <div class="enunciados-head">
-                    <img style = "width: 100px; height: 100px" src="img/Mango.PNG"/>
-                    <p style = "margin-top: 30px; font-size: 30px; font-weight: bold; color: blueviolet; margin-right: 10px">120</p>
-                    <img style = "width: 50px; height: 50px; margin-top: 25px" src="img/Division.jpg"/>
-                    <img style = "width: 100px; height: 100px" src="img/Mango.PNG"/>
-                    <p style = "margin-top: 30px; font-size: 30px; font-weight: bold; color: blueviolet; margin-right: 10px; ">15</p>
-                    <img style = "width: 50px; height: 50px; margin-top: 25px; margin-right: 10px" src="img/elmeromeroigual.png"/>
+                    <img style = "width: 100px; height: 100px" src="img/Ope7.3.png"/>
                     <input style = "border-radius: 5px; background-color: rgba(197, 136, 255, 0.705); border: 0; max-lines: 2; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px" maxlength="3" type="text" placeholder="Escriba el resultado" id="user1">
                     <input style = "border-radius: 5px; background-color: aqua; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px; border: 0" type="button" value="Comprobar" onclick="Operacion();">
 
@@ -229,10 +224,7 @@
     <script src="js/lightbox.js"></script>
     <script type="text/javascript">
                   function Operacion() {
-                 var N1 = 120;
-                 var N2 = 15;
-                 var Div;
-                 Div = N1 / N2;
+                 var Cil = 3;
                  var resUs = parseInt(document.getElementById("user1").value);
                  var puntaje = document.getElementById("mostrar_puntaje");
                  let resuelto = false;
