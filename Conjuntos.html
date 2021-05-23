@@ -94,25 +94,16 @@
         <div class="contenedor-slides">    
             <ul class="slider">
               <li id="slide4">
-                <img src="img/Ope2.1.PNG"/>
+                <img src="img/Ope8.1.png"/>
               </li>
               <li id="slide5">
                 <img style = "width: 500px; height: 400px" 
-                src="img/Ope2.2.PNG"/>
+                src="img/Ope8.2.png"/>
               </li>
               <li id="slide6">
-                <p class="enunciados">Realice el ejercicio para calcular el numero de tortas que Alex tiene en su tienda</p>  
+                <p class="enunciados">Ingrese el numero de la operacion que considere correspondiente</p>  
                 <div class="enunciados-head">
-                    <img style = "width: 100px; height: 100px" src="img/torta.PNG"/>
-                    <p style = "margin-top: 30px; font-size: 30px; font-weight: bold; color: blueviolet; margin-right: 10px">12</p>
-                    <img style = "width: 50px; height: 50px; margin-top: 25px" src="img/Multiplicar.jpg"/>
-                    <img style = "width: 100px; height: 100px" src="img/torta.PNG"/>
-                    <p style = "margin-top: 30px; font-size: 30px; font-weight: bold; color: blueviolet; margin-right: 10px">5</p>
-                    <img style = "width: 50px; height: 50px; margin-top: 25px" src="img/SIMBOLO-MAS.png"/>
-                    <img style = "width: 100px; height: 100px" 
-                    src="img/torta.PNG"/>
-                    <p style = "margin-top: 30px; font-size: 30px; font-weight: bold; color: blueviolet; margin-right: 10px; ">7</p>
-                    <img style = "width: 50px; height: 50px; margin-top: 25px; margin-right: 10px" src="img/elmeromeroigual.png"/>
+                    <img style = "width: 400px; height: 140px" src="img/Ope8.3.png"/>
                     <input style = "border-radius: 5px; background-color: rgba(197, 136, 255, 0.705); border: 0; max-lines: 2; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px" maxlength="3" type="text" placeholder="Escriba el resultado" id="user2">
                     <input style = "border-radius: 5px; background-color: aqua; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px; border: 0" type="button" value="Comprobar" onclick="Operacion1();">
                 </div>
@@ -224,14 +215,14 @@
     <script src="js/lightbox.js"></script>
     <script type="text/javascript">
                   function Operacion() {
-                 var Cil = 3;
+                 var Conj1 = 3;
                  var resUs = parseInt(document.getElementById("user1").value);
                  var puntaje = document.getElementById("mostrar_puntaje");
                  let resuelto = false;
                  if(resuelto == true){
                     alert("Ya lo resolvió")
                  }else{
-                    if(resUs == Cil){
+                    if(resUs == Conj1){
                       alert("Bien");
                       resuelto = true;
                       var pun = 10;
@@ -242,18 +233,14 @@
                  }
              }    
        function Operacion1() {
-                 var N3 = 12;
-                 var N4 = 5;
-                 var N5 = 7;
-                 var mul;
-                 mul = N3 *( N4 + N5);
+                 var Conj2 = 2;
                  var resUs1 = parseInt(document.getElementById("user2").value);
                  var puntaje = document.getElementById("mostrar_puntaje");
                  let resuelto = false;
                  if(resuelto == true){
                     alert("Ya lo resolvió")
                  }else{
-                    if(resUs1 == mul){
+                    if(resUs1 == Conj2){
                       alert("Bien");
                       resuelto = true;
                       var pun = 10;
