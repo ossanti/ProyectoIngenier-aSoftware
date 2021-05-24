@@ -2,8 +2,8 @@
 -- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 24-05-2021 a las 02:39:38
+-- Servidor: localhost
+-- Tiempo de generación: 24-05-2021 a las 02:57:10
 -- Versión del servidor: 10.4.19-MariaDB
 -- Versión de PHP: 8.0.6
 
@@ -26,7 +26,8 @@ SET time_zone = "+00:00";
 --
 
 INSERT INTO `informationuser` (`id`, `user`, `email`, `password`, `score`) VALUES
-(1, 'Joanpe', 'joansepe@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964', NULL);
+(1, 'Joanpe', 'joansepe@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964', NULL),
+(2, 'Anrodriguez', 'Anrodriguez122@poligran.edu.co', 'd2b87a7f9c2a0c53339d74388a2481e77e8fbc9a', NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
