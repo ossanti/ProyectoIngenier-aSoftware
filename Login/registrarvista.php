@@ -17,7 +17,7 @@
      
      <div class="input-contenedor">
          <i class="fas fa-user icon"></i>
-         <input type="text" name = "user" placeholder="Usuario">
+         <input style = "font-size: 20px; width: 82%; padding: 10px; border: none" type="text" name = "user" placeholder="Usuario">
          
          </div>
          
@@ -33,7 +33,7 @@
          
          </div>
          <input type="submit" name = "register" value="Registrate" class="button">
-         <p>¿Ya tienes una cuenta?<a class="link" href="loginvista.html">Iniciar Sesion</a></p>
+         <p>¿Ya tienes una cuenta?<a class="link" href="loginvista.php">Iniciar Sesion</a></p>
      </div>
     </form>
     <?php

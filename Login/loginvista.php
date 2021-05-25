@@ -16,7 +16,7 @@
      <div class="contenedor">
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
-         <input type="text" placeholder="Usuario">
+         <input style = "font-size: 20px; width: 82%; padding: 10px; border: none" type="text" placeholder="Usuario">
          
          </div>
          
@@ -26,7 +26,7 @@
          
          </div>
          <input type="submit" value="Login" class="button">
-         <p>¿No tienes una cuenta? <a class="link" href="registrarvista.html">Registrate </a></p>
+         <p>¿No tienes una cuenta? <a class="link" href="registrarvista.php">Registrate </a></p>
          </div>
     </form>
 </body>
