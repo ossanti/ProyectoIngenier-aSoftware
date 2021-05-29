@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION['user'])){
+    header('Location: Login/loginvista.php');
+    exit;
+} else {
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -35,19 +42,31 @@
         <div class="contenedor-servicio">
             <img src="img/perfil.png" alt="">
             <div class="checklist-servicio">
-                <div class="service">
-                    <h3 class="n-service"><span class="number">1</span>Usuario</h3>
-                    <p> Aquí ira el Usuario</p>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Usuario</h3>
+                        <p>
+                            <?php
+                              echo $_SESSION['user'];
+                            ?>
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Email</h3>
+                        <p>
+                        <?php
+                              echo $_SESSION['email'];
+                            ?>
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Puntaje</h3>
+                        <p>
+                        <?php
+                              echo $_SESSION['puntaje'];
+                            ?>
+                        </p>
+                    </div>
                 </div>
-                <div class="service">
-                    <h3 class="n-service"><span class="number">2</span>Nombre</h3>
-                    <p> Aquí ira el Nombre</p>
-                </div>
-                <div class="service">
-                    <h3 class="n-service"><span class="number">3</span>Puntaje</h3>
-                    <div id="mostrar_puntaje"></div>
-                </div>
-            </div>
         </div>
     </section>
         <section class="slides" id="Ejercicio1">
@@ -295,3 +314,6 @@
     </script>
 </body>
 </html>
+<?php
+}
+?>
