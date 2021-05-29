@@ -152,13 +152,13 @@ if(!isset($_SESSION['user'])){
         <div class="contenedor footer-content">
 
                 <div class="social-media">
-                    <a href="./" class="social-media-icon">
+                    <a href="https://www.facebook.com/poligran/" class="social-media-icon">
                         <i class='bx bxl-facebook'></i>
                     </a>
-                    <a href="./" class="social-media-icon">
+                    <a href="https://twitter.com/poligran" class="social-media-icon">
                         <i class='bx bxl-twitter' ></i>
                     </a>
-                    <a href="./" class="social-media-icon">
+                    <a href="https://www.instagram.com/poligrancol/" class="social-media-icon">
                         <i class='bx bxl-instagram' ></i>
                     </a>
                 </div>
