@@ -14,7 +14,7 @@ if(isset($_POST['register'])){
          <?php
       }else{
 
-         $insertar = "INSERT INTO informationuser(user, email, password) VALUES ('$user','$email','$password')";
+         $insertar = "INSERT INTO informationuser(user, email, password,score) VALUES ('$user','$email','$password',0)";
          $consulta = mysqli_query($conex, $insertar);  
 
       if($consulta){

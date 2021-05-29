@@ -10,22 +10,22 @@
 
 </head>  
 <body>
-    <form class="formulario" method = "post">
+    <form class="formulario" action = "login.php" method = "POST">
     
     <h1>Login</h1>
      <div class="contenedor">
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
-         <input style = "font-size: 20px; width: 82%; padding: 10px; border: none" type="text" placeholder="Usuario">
+         <input style = "font-size: 20px; width: 82%; padding: 10px; border: none" type="text" name="usuario" placeholder="Usuario">
          
          </div>
          
          <div class="input-contenedor">
         <i class="fas fa-key icon"></i>
-         <input type="password" placeholder="Contraseña">
+         <input type="password" name= "contra" placeholder="Contraseña">
          
          </div>
-         <input type="submit" value="Login" class="button">
+         <button class="button" type="submit" name="login" value="Login">Iniciar Sesión</button>
          <p>¿No tienes una cuenta? <a class="link" href="registrarvista.php">Registrate </a></p>
          </div>
     </form>
