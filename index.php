@@ -132,7 +132,7 @@ if(!isset($_SESSION['user'])){
                 <div class="cont-expert">
                     <img src="img/Operaciones.jpg" alt="">
                     <h3 class="n-expert"></h3>
-                    <a href ="Operaciones Basicas.html">Operaciones Basicas</a>.
+                    <a href ="Operaciones_Basicas.html">Operaciones Basicas</a>.
                 </div>
                 <div class="cont-expert">
                     <img src="img/Geometria.jpg" alt="">
