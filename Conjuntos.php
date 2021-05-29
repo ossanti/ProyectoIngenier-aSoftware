@@ -82,12 +82,11 @@ if(!isset($_SESSION['user'])){
               </li>
               <li id="slide3">
                 <p class="enunciados">Ingrese el numero que considere que es el conjunto con mas objetos.</p>  
-                <div class="enunciados-head">
+                <form class="enunciados-head" action="E1.php" method="POST">
                     <img style = "width: 400px; height: 140px" src="img/Ope7.3.png"/>
-                    <input style = "border-radius: 5px; background-color: rgba(197, 136, 255, 0.705); border: 0; max-lines: 2; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px" maxlength="3" type="text" placeholder="Escriba el resultado" id="user1">
-                    <input style = "border-radius: 5px; background-color: aqua; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px; border: 0" type="button" value="Comprobar" onclick="Operacion();">
-
-                </div>
+                    <input style = "border-radius: 5px; background-color: rgba(197, 136, 255, 0.705); border: 0; max-lines: 2; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px" maxlength="3" type="number" name="op1" placeholder="Escriba el resultado" id="user1">
+                    <button style = "border-radius: 5px; background-color: aqua; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px; border: 0" type="submit" name="btnop1" value="Comprobar" onclick="Operacion();"> Comprobar </button>
+                 </form>
               </li>
             </ul>
             
@@ -121,11 +120,11 @@ if(!isset($_SESSION['user'])){
               </li>
               <li id="slide6">
                 <p class="enunciados">Ingrese el numero de la operacion que considere correspondiente</p>  
-                <div class="enunciados-head">
+                <form class="enunciados-head" action="E1.php" method="POST">
                     <img style = "width: 400px; height: 140px" src="img/Ope8.3.png"/>
-                    <input style = "border-radius: 5px; background-color: rgba(197, 136, 255, 0.705); border: 0; max-lines: 2; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px" maxlength="3" type="text" placeholder="Escriba el resultado" id="user2">
-                    <input style = "border-radius: 5px; background-color: aqua; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px; border: 0" type="button" value="Comprobar" onclick="Operacion1();">
-                </div>
+                    <input style = "border-radius: 5px; background-color: rgba(197, 136, 255, 0.705); border: 0; max-lines: 2; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px" maxlength="3" type="number" name = "op2" placeholder="Escriba el resultado" id="user2">
+                    <button style = "border-radius: 5px; background-color: aqua; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px; border: 0" type="submit" name="btnop2" value="Comprobar" onclick="Operacion1();">Comprobar</button>
+                </form>
               </li>
             </ul>
             
@@ -157,10 +156,10 @@ if(!isset($_SESSION['user'])){
             </li>
             <li id="slide9">
               <p class="enunciados">Ingrese el numero que corresponde a la operacion de interseccion</p>  
-              <div class="enunciados-head">
+              <form class="enunciados-head" action="E1.php" method="POST">
                   <img style = "width: 370px; height: 130px" src="img/Ope9.3.png"/>
-                  <input style = "border-radius: 5px; background-color: rgba(197, 136, 255, 0.705); border: 0; max-lines: 2; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px" maxlength="3" type="text" placeholder="Escriba el resultado" id="user3">
-                  <input style = "border-radius: 5px; background-color: aqua; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px; border: 0" type="button" value="Comprobar" onclick="Operacion2();">
+                  <input style = "border-radius: 5px; background-color: rgba(197, 136, 255, 0.705); border: 0; max-lines: 2; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px" maxlength="3" type="number" name = "op3" placeholder="Escriba el resultado" id="user3">
+                  <button style = "border-radius: 5px; background-color: aqua; width: 180px; height: 50px; margin-right: 10px; margin-top: 25px; border: 0" type="submit" name="btnop3" value="Comprobar" onclick="Operacion2();">Comprobar</button>
 
               </div>
             </li>
