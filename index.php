@@ -132,17 +132,17 @@ if(!isset($_SESSION['user'])){
                 <div class="cont-expert">
                     <img src="img/Operaciones.jpg" alt="">
                     <h3 class="n-expert"></h3>
-                    <a href ="Operaciones_Basicas.html">Operaciones Basicas</a>.
+                    <a href ="Operaciones_Basicas.php">Operaciones Basicas</a>.
                 </div>
                 <div class="cont-expert">
                     <img src="img/Geometria.jpg" alt="">
                     <h3 class="n-expert"></h3>
-                    <a href ="Geometria.html">Geometria</a>.
+                    <a href ="Geometria.php">Geometria</a>.
                 </div>
                 <div class="cont-expert">
                     <img src="img/Conjunto.jpg" alt="">
                     <h3 class="n-expert"></h3>
-                    <a href ="Conjuntos.html">Conjuntos</a>.
+                    <a href ="Conjuntos.php">Conjuntos</a>.
                 </div>
             </section>
         </section>
